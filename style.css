@@ -1,3 +1,79 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 45px;
+    margin: 0;
+}
+.red{
+    color: red;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, yellow);
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 2%;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/bg/bg1.jpg);
+    background-size: 100% 100%;
+}
+.mid-banner{
+    background-image: url(images/bg/bg2.jpg);
+    background-size: 100% 100%;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.recipetext{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.flex-recipe{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.third-width{
+    width: 20%;
+    box-shadow: 0 0 15px gray;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.third-width img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.subscribe-area{
+    background-color: rgb(176, 241, 241);
+    width: 50%;
+    margin: 4% auto;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+footer{
+    background-color: darkseagreen;
+    padding: 4%;
+    text-align: center;
+}
