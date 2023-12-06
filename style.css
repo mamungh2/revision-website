@@ -1,6 +1,42 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.topnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 228, 230);
+    width: 100%;
+
+}
+.topnav-logo{
+    width: 5%;
+}
+.topnav-logo img{
+    width: 100%;
+    margin-top: 9%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    letter-spacing: 1px;
+}
+li a:hover{
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
 h1{
     font-size: 45px;
     margin: 0;

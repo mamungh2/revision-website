@@ -11,6 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="topnav">
+        <div class="topnav-logo">
+            <a href="#"><img src="images/logo/foodnetworklogo.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#recipes">RECIPES</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#mid-banner">ABOUT ME</a></li>
+            <li><a href="#">SUBSCRIBE</a></li>
+        </ul>
+        <form action="#">
+            <input type="search" name="Search" id="search">
+            <input class="link-button" type="submit" value="SEARCH">
+        </form>
+    </nav>
     <section class="top-banner flex-container">
         <div class="half-width">
             <h1><span class="red">Eat</span> healthy</h1>
@@ -23,7 +40,7 @@
             <img src="images/bg-person/bg-person1.png" alt="">
         </div>
     </section>
-    <section class="mid-banner flex-container">
+    <section class="mid-banner flex-container" id="mid-banner">
         <div class="half-width">
             <img src="images/bg-person/bg-person2.png" alt="">
         </div>
@@ -33,7 +50,7 @@
             <a target="_blank" class="link-button" href="#">Contact Me</a>
         </div>
     </section>
-    <section>
+    <section id="recipes">
         <div class="recipetext">
             <h2>My Recipes</h2>
             <p>I have many latest recipes to share you. You can try it for home. This food are very healthy and delicious.</p>
