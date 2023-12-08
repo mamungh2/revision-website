@@ -7,6 +7,8 @@ body{
     align-items: center;
     background-color: rgb(199, 228, 230);
     width: 100%;
+    position: sticky;
+    top: .5%;
 }
 .topnav-logo{
     width: 5%;
